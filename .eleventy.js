@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
             input: "content",
             includes: "../templates",
             layouts: "../templates/layouts",
-            output: "dist"
+            output: "docs"
         }
     };
 };
