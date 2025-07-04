@@ -1,0 +1,17 @@
+body {
+    font-family: monospace;
+    background: #0f0f0f;
+    color: #f8f8f8;
+    margin: 0;
+    padding: 1em;
+}
+
+a {
+    color: #ff0040;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 2px solid #ff0040;
+    margin-bottom: 1em;
+}
