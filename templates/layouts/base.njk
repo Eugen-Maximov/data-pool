@@ -6,14 +6,11 @@
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <header>
-    <h1>Cyberpunk RED DB</h1>
-    <nav>
-      <a href="/">🏠 Главная</a>
-    </nav>
-  </header>
-  <main>
-    {{ content | safe }}
-  </main>
+  <div class="layout">
+    {% include "sidebar.njk" %}
+    <main class="content">
+      {{ content | safe }}
+    </main>
+  </div>
 </body>
 </html>
