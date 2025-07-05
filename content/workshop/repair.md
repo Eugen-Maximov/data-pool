@@ -1,5 +1,5 @@
 ---
-title: Заглушка
+title: Обслуживание снаряги
 layout: base.njk
 ---
 

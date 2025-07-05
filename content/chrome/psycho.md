@@ -1,5 +1,5 @@
 ---
-title: Заглушка
+title: Киберпсихоз
 layout: base.njk
 ---
 

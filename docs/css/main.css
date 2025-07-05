@@ -20,6 +20,11 @@ html, body {
     background: #1a1a1a;
     padding: 1em;
     border-right: 2px solid #ff0040;
+
+    overflow-y: auto;
+    max-height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 .sidebar h3 {
