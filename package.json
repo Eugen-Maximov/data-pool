@@ -1,6 +1,6 @@
 {
-  "name": "cpr-db",
-  "version": "1.0.0",
+  "name": "data-pool",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {

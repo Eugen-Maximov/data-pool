@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ title }} · Cyberpunk RED DB</title>
+    <meta charset="UTF-8">
+    <title>{{ title }} · Cyberpunk RED DB</title>
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
 </head>
 <body>
-  <div class="layout">
+
+<header class="site-header">
+    <img src="{{ '/images/data-pool_header.png' | url }}" alt="Data Pool Header">
+</header>
+
+<div class="layout">
     {% include "sidebar.njk" %}
     <main class="content">
-      {{ content | safe }}
+        {{ content | safe }}
     </main>
-  </div>
+</div>
 </body>
 </html>
+
