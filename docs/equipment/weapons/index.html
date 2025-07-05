@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <title>Оружейный Магазин · Cyberpunk RED DB</title>
     <link rel="stylesheet" href="/data-pool/css/main.css">
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.min.js"></script>
+    <script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
+    <script src="https://unpkg.com/lunr-languages/lunr.ru.js"></script>
+    <script>window.__BASE_PATH__ = "/data-pool/";</script>
 </head>
 <body>
-
 <header class="site-header">
     <img src="/data-pool/images/data-pool_header.png" alt="Data Pool Header">
 </header>
 
 <div class="layout">
+    <div class="search-box">
+        <input
+                type="text"
+                id="search-input"
+                placeholder="Поиск по датапулу..."
+                autocomplete="off"
+        />
+        <ul id="search-results"></ul>
+    </div>
     <aside class="sidebar">
     <nav>
         <div class="logo">
@@ -116,6 +129,7 @@
 
     </main>
 </div>
+<script src="/data-pool/app/search.js"></script>
 </body>
 </html>
 

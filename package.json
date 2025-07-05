@@ -1,6 +1,6 @@
 {
   "name": "data-pool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-fetch": "^5.1.0",
+    "lunr": "^2.3.9"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lunr-languages": "^1.14.0"
   }
 }

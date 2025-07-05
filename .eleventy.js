@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("app");
     eleventyConfig.addPassthroughCopy("images");
     return {
         pathPrefix: "/data-pool/",
