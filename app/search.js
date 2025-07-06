@@ -56,3 +56,35 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Ошибка загрузки search-index.json", err);
     }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".tab-button").forEach(button => {
+        button.addEventListener("click", () => {
+            const target = button.getAttribute("data-tab");
+
+            document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+            button.classList.add("active");
+
+            document.querySelectorAll(".tab-content").forEach(div => {
+                div.style.display = div.id === target ? "block" : "none";
+            });
+        });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const scrollBtn = document.getElementById("scrollToTopBtn");
+    if (scrollBtn) {
+        window.addEventListener("scroll", () => {
+            scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
+        });
+
+        scrollBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    }
+});
+
+document.getElementById("scrollToTopBtn").addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
