@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("app");
     eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("data");
     eleventyConfig.setLibrary("md", markdownIt({ html: true }).use(markdownItAnchor, {
         slugify: s =>
             s
@@ -20,7 +21,8 @@ module.exports = function(eleventyConfig) {
             input: "content",
             includes: "../templates/includes",
             layouts: "../templates/layouts",
-            output: "docs"
+            output: "docs",
+            data: "../data"
         }
     };
 };
