@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
+    "build": "eleventy --input=content --output=_site",
     "serve": "eleventy --serve"
   },
   "keywords": [],
