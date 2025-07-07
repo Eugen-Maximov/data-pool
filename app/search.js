@@ -88,3 +88,27 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById("scrollToTopBtn").addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const tocToggle = document.getElementById("toc-toggle");
+    const tocPopup = document.getElementById("toc-popup");
+    const tocDynamic = document.getElementById("toc-dynamic");
+    const pageToc = document.querySelector(".page-toc");
+
+    if (!pageToc || !tocToggle || !tocDynamic) return;
+
+    tocDynamic.innerHTML = pageToc.innerHTML;
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+            tocToggle.style.display = "block";
+        } else {
+            tocToggle.style.display = "none";
+            tocPopup.classList.add("hidden");
+        }
+    });
+
+    tocToggle.addEventListener("click", () => {
+        tocPopup.classList.toggle("hidden");
+    });
+});

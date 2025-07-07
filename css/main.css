@@ -1,8 +1,7 @@
-/* Общая разметка */
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #121212; /* или #000 если хочешь прям чёрный */
+    background-color: #121212;
     color: #f0f0f0;
 }
 
@@ -14,7 +13,6 @@ html, body {
     font-family: 'Courier New', monospace;
 }
 
-/* Сайдбар */
 .sidebar {
     width: 250px;
     background: #1a1a1a;
@@ -48,17 +46,15 @@ html, body {
 }
 
 .sidebar a:hover {
-    color: #ff66aa;
+    color: #ff0040;
 }
 
-/* Контентная часть */
 .content {
     flex: 1;
     padding: 2em;
     background-color: #121212;
 }
 
-/* Таблицы */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -151,34 +147,52 @@ tr:nth-child(even) {
     padding-top: 1em;
 }
 
-.qr-container {
-    text-align: center;
-    margin: 2em auto;
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+    flex-wrap: wrap;
 }
 
-.qr-container img {
-    max-width: 200px;
-    width: 100%;
+.image-container.image-left {
+    flex-direction: row;
+}
+
+.image-container.image-right {
+    flex-direction: row-reverse;
+}
+
+.image-container.image-center {
+    flex-direction: column;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 300px;
     height: auto;
     border: 2px solid #ff0040;
-    padding: 10px;
+    padding: 8px;
     background: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 64, 0.5);
 }
 
-.qr-container p {
-    color: #ccc;
-    font-size: 0.9em;
-    margin-top: 0.5em;
+.image-container .text {
+    max-width: 600px;
+    color: #f0f0f0;
+    font-size: 1em;
 }
 
 a {
-    color: #f0f0f0; /* светло-серый по умолчанию */
+    color: #f0f0f0;
     text-decoration: underline;
     transition: color 0.2s ease;
 }
 
 a:hover {
-    color: #ff0040; /* ярко-красный при наведении */
+    color: #ff0040;
     text-decoration: none;
 }
 
@@ -287,4 +301,63 @@ a:hover {
 
 #scrollToTopBtn:hover {
     background-color: #ff3366;
+}
+
+.toc-button {
+    position: fixed;
+    bottom: 4.5em;
+    right: 2em;
+    background: #ff0040;
+    color: #000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    z-index: 999;
+    display: none;
+}
+
+.toc-popup {
+    position: fixed;
+    bottom: 140px;
+    right: 20px;
+    background: #111;
+    color: white;
+    border: 2px solid #ff0040;
+    border-radius: 0.5em;
+    padding: 12px 16px;
+    width: 280px;
+    max-height: 50vh;
+    overflow-y: auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.6);
+    z-index: 999;
+}
+
+.toc-popup.hidden {
+    display: none;
+}
+
+.toc-popup-inner ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-popup-inner li {
+    margin: 4px 0;
+}
+
+.toc-popup-inner a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.toc-popup-inner a:hover {
+    color: #ff0040;
+    text-decoration: none;
 }
