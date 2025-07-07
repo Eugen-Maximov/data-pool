@@ -11,6 +11,8 @@ layout: base.njk
 - Дмитрий @Flybe
 - Константин
 - Stanislav Lagutenkov
+- Виктор П.
+- Илья Ш.
 
 <img src="{{ '/images/data-pool_footer.png' | url }}" alt="Data Pool Footer" class="footer-image" />
 
