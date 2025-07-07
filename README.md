@@ -1,5 +1,3 @@
-Попытка от скуки вынести датапул на GitHub Pages
-
 Оригинал: https://coda.io/@a-leon/data-pool-0-95-coda
 
 ## Установка и запуск
