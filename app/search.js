@@ -58,15 +58,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".tab-button").forEach(button => {
-        button.addEventListener("click", () => {
-            const target = button.getAttribute("data-tab");
+    document.querySelectorAll(".tab-buttons").forEach(tabGroup => {
+        const buttons = tabGroup.querySelectorAll(".tab-button");
 
-            document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
-            button.classList.add("active");
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                const targetId = button.getAttribute("data-tab");
+                const container = tabGroup.parentElement;
 
-            document.querySelectorAll(".tab-content").forEach(div => {
-                div.style.display = div.id === target ? "block" : "none";
+                buttons.forEach(b => b.classList.remove("active"));
+                button.classList.add("active");
+
+                container.querySelectorAll(".tab-content").forEach(div => {
+                    div.style.display = div.id === targetId ? "block" : "none";
+                });
             });
         });
     });

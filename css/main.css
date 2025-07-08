@@ -249,23 +249,31 @@ a:hover {
 
 .tab-buttons {
     display: flex;
-    gap: 0.5em;
-    margin-bottom: 1em;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .tab-button {
-    background: #1a1a1a;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 0.5rem 1rem;
     border: 1px solid #ff0040;
-    color: #f0f0f0;
-    padding: 0.5em 1em;
+    border-radius: 0.5rem;
     cursor: pointer;
-    font-family: monospace;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.9rem;
+    white-space: nowrap;
 }
 
+.tab-button:hover,
 .tab-button.active {
-    background: #ff0040;
+    background-color: #ff0040;
     color: #000;
+    transform: translateY(-2px);
 }
+
 
 .tab-content table {
     margin-top: 1em;
@@ -360,4 +368,11 @@ a:hover {
 .toc-popup-inner a:hover {
     color: #ff0040;
     text-decoration: none;
+}
+
+blockquote {
+    border-left: 4px solid #ff0040;
+    padding-left: 1em;
+    color: #666;
+    font-style: italic;
 }
