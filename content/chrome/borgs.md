@@ -3,6 +3,6 @@ title: Экзоскелеты/Боргирование
 layout: base.njk
 ---
 
-# Раздел: Заглушка
+# Экзоскелеты/Боргирование
 
-tbd
+<img src="{{ '/images/content/chrome/borgs/borgs-footer.png' | url }}" alt="Borgs Footer" class="footer-image" />
