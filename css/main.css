@@ -148,6 +148,7 @@ tr:nth-child(even) {
 }
 
 .image-container {
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,8 +171,11 @@ tr:nth-child(even) {
 }
 
 .image-container img {
-    max-width: 300px;
+    max-width: 600px;
+    max-height: 80vh;
+    width: auto;
     height: auto;
+    object-fit: contain;
     border: 2px solid #ff0040;
     padding: 8px;
     background: #000;
