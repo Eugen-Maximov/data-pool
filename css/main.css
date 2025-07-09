@@ -377,6 +377,6 @@ a:hover {
 blockquote {
     border-left: 4px solid #ff0040;
     padding-left: 1em;
-    color: #666;
+    color: rgb(52, 159, 0);
     font-style: italic;
 }
