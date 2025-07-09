@@ -1,6 +1,7 @@
 ---
 title: NCPD
 layout: base.njk
+keywords: [ "нспд", "коп", "копы", "полиция", "менты", "законник"]
 ---
 
 # Night City Police Department
