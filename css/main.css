@@ -150,11 +150,11 @@ tr:nth-child(even) {
 .image-container {
     max-width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 1em;
     margin: 2em 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .image-container.image-left {

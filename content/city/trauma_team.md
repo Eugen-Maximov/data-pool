@@ -1,6 +1,7 @@
 ---
 title: Trauma Team
 layout: base.njk
+keywords: [ "тт", "травма", "травма тим", "медик", "спасение", "страховка"]
 ---
 
 # Trauma Team
