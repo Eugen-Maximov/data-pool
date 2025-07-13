@@ -22,7 +22,7 @@
         <ul id="search-results"></ul>
     </div>
     {% include "sidebar.njk" %}
-    <main class="content">
+    <main class="content" id="main-content">
         {{ content | safe }}
     </main>
 </div>
@@ -42,6 +42,7 @@
     <div class="toc-popup-inner" id="toc-dynamic"></div>
 </div>
 <script src="{{ '/app/search.js' | url }}"></script>
+<script src="{{ '/app/spa.js' | url}}" defer></script>
 </body>
 </html>
 
