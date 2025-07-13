@@ -21,7 +21,7 @@ module.exports = function(eleventyConfig) {
             input: "content",
             includes: "../templates/includes",
             layouts: "../templates/layouts",
-            output: "docs",
+            output: "_site",
             data: "../data"
         }
     };
