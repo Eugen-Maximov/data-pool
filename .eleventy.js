@@ -18,11 +18,11 @@ module.exports = function(eleventyConfig) {
     return {
         pathPrefix: "/data-pool/",
         dir: {
-            input: ".",
-            includes: "templates/includes",
-            layouts: "templates/layouts",
+            input: "content",
+            includes: "../templates/includes",
+            layouts: "../templates/layouts",
             output: "_site",
-            data: "data"
+            data: "../data"
         }
     };
 };
