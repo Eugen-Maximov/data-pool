@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     return {
         pathPrefix: "/data-pool/",
         dir: {
-            input: "content",
+            input: ".",
             includes: "templates/includes",
             layouts: "templates/layouts",
             output: "_site",
