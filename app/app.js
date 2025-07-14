@@ -116,9 +116,24 @@ window.initPageScripts = async function () {
             tocPopup.classList.toggle("hidden");
         });
     }
+
+    // --- Включение фавайкона ---
+    function ensureFavicon() {
+        const faviconHref = '/data-pool/images/favicon.png';
+        const existing = document.querySelector("link[rel='icon']");
+
+        if (!existing || existing.href !== location.origin + faviconHref) {
+            if (existing) existing.remove();
+
+            const link = document.createElement("link");
+            link.rel = "icon";
+            link.href = faviconHref;
+            link.type = "image/png";
+            document.head.appendChild(link);
+        }
+    }
 };
 
-// Запускаем сразу при первой загрузке:
 document.addEventListener("DOMContentLoaded", () => {
     initPageScripts();
 });
