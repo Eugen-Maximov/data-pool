@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npx @11ty/eleventy --input=content --output=_site
+        run: npx run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
