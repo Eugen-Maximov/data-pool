@@ -2,7 +2,7 @@
 title: Твой Хром
 layout: base.njk
 ---
-
+<a href="{{ '/index/' | url }}" class="return-link">На Главную</a>
 # Твой Хром
 
 <div class="tile-grid">

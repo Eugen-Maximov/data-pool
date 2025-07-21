@@ -3,7 +3,7 @@ title: Предметы
 layout: base.njk
 keywords: [ "предметы", "расходники", "сухпай" ]
 ---
-
+<a href="{{ '/equipment/' | url }}" class="return-link">Снаряжение</a>
 # Предметы
 
 <div class="tab-buttons">

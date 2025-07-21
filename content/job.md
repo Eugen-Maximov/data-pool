@@ -2,7 +2,7 @@
 title: Твоя Работа
 layout: base.njk
 ---
-
+<a href="{{ '/index/' | url }}" class="return-link">На Главную</a>
 # Твоя Работа
 
 <div class="tile-grid">

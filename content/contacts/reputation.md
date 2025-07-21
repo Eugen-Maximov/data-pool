@@ -3,7 +3,7 @@ title: Репутация
 layout: base.njk
 keywords: []
 ---
-
+<a href="{{ '/contacts/' | url }}" class="return-link">Твои Контакты</a>
 # Репутация
 
 Подробнее о Репутации в CP:R, стр.193

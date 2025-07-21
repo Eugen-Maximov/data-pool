@@ -3,7 +3,7 @@ title: Фиксер
 layout: base.njk
 keywords: [ "фиксер", "фиксик", "воротила" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Фиксер - Ролевая Способность
 
 <div class="image-container image-left">

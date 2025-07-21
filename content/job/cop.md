@@ -3,7 +3,7 @@ title: Законник
 layout: base.njk
 keywords: [ "коп", "мент", "мусор" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Законник - Ролевая Способность
 
 <div class="image-container image-left">

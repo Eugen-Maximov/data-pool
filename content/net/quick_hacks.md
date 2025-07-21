@@ -3,7 +3,7 @@ title: Быстрый взлом
 layout: base.njk
 keywords: [ "взлом", "квикхак" ]
 ---
-
+<a href="{{ '/net/' | url }}" class="return-link">Сеть</a>
 # Быстрый Взлом (Edgerunners Mission kit)
 
 <div class="tab-buttons">

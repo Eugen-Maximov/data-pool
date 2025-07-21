@@ -3,7 +3,7 @@ title: Дроны
 layout: base.njk
 keywords: [ "дроны", "жираф" ]
 ---
-
+<a href="{{ '/workshop/' | url }}" class="return-link">Мастерская</a>
 # Дроны
 
 <div class="tab-buttons">

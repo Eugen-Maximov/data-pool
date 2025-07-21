@@ -3,7 +3,7 @@ title: Броня
 layout: base.njk
 keywords: ["броня", "кевлар", "щит", "защита", "металгир"]
 ---
-
+<a href="{{ '/equipment/' | url }}" class="return-link">Снаряжение</a>
 # Броня
 
 <div class="tab-buttons">

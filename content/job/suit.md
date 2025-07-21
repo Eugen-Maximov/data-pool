@@ -3,7 +3,7 @@ title: Копрорат
 layout: base.njk
 keywords: [ "пиджак", "корпо", "подчиненные", "команда" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Корпорат - Ролевая Способность
 
 <div class="image-container image-left">

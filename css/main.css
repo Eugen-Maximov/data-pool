@@ -448,3 +448,29 @@ blockquote {
     text-align: center;
     font-weight: bold;
 }
+
+.return-link {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #aaa;
+    text-decoration: none;
+    margin: 0;
+    padding: 0.25rem 0 1rem 1.25rem;
+    position: relative;
+}
+
+.return-link::before {
+    content: "‹";
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    font-size: 1.1rem;
+    color: #aaa;
+    transition: color 0.2s ease;
+}
+
+.return-link:hover,
+.return-link:hover::before {
+    color: #fff;
+}

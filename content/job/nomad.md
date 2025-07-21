@@ -3,7 +3,7 @@ title: Кочевник
 layout: base.njk
 keywords: [ "номад", "кочевник", "тачки" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Кочевник - Ролевая Способность
 
 <div class="image-container image-left">

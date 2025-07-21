@@ -3,7 +3,7 @@ title: Карта Найт Сити
 layout: base.njk
 keywords: [ "найт сити", "найт-сити", "карта", "город"]
 ---
-
+<a href="{{ '/city/' | url }}" class="return-link">Город</a>
 # Карта Найт-Сити
 
 

@@ -3,7 +3,7 @@ title: Уличный сленг
 layout: base.njk
 keywords: [ "сленг", "жаргон"]
 ---
-
+<a href="{{ '/contacts/' | url }}" class="return-link">Твои Контакты</a>
 # Уличный Сленг
 
 | Слово                   | Значение                                                                                                                                                                                                                                                                                                                                    |
