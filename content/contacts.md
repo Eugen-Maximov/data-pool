@@ -2,7 +2,7 @@
 title: Твои Контакты
 layout: base.njk
 ---
-<a href="{{ '/index/' | url }}" class="return-link">На Главную</a>
+<a href="{{ '/' | url }}" class="return-link">На Главную</a>
 # Твои Контакты
 
 <div class="tile-grid">
