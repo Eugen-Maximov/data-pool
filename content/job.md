@@ -34,4 +34,16 @@ layout: base.njk
     <img src="{{ '/images/content/job/cop.png' | url }}" alt="Законник" />
     <span>Законник</span>
   </a>
+  <a href="{{ '/job/rocker/' | url }}" class="tile-button">
+    <img src="{{ '/images/content/job/rocker.png' | url }}" alt="Рокербой" />
+    <span>Рокербой</span>
+  </a>
+  <a href="{{ '/job/media/' | url }}" class="tile-button">
+    <img src="{{ '/images/content/job/media.png' | url }}" alt="Медиа" />
+    <span>Медиа</span>
+  </a>
+  <a href="{{ '/job/solo/' | url }}" class="tile-button">
+    <img src="{{ '/images/content/job/solo.png' | url }}" alt="Соло" />
+    <span>Соло</span>
+  </a>
 </div>
