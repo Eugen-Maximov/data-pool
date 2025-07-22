@@ -3,7 +3,7 @@ title: Нетраннер
 layout: base.njk
 keywords: [ "нетраннер", "хакер", "взлом" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Нетраннер - Ролевая Способность
 
 <div class="image-container image-left">

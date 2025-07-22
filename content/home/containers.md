@@ -3,7 +3,7 @@ title: Грузовые контейнеры и Куб-отели
 layout: base.njk
 keywords: [ "куб", "контейнеры", "отели", "жилье", "куб-отель"]
 ---
-
+<a href="{{ '/home/' | url }}" class="return-link">Где ты живешь</a>
 # Грузовые контейнеры и Куб-отели
 
 <div class="tab-buttons">

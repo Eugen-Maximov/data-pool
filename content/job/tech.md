@@ -3,7 +3,7 @@ title: Техник
 layout: base.njk
 keywords: [ "техник", "класс", "крафт", "создание" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # Техник - Ролевая Способность
 
 <div class="image-container image-left">

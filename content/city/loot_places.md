@@ -3,7 +3,7 @@ title: Места для Сбора
 layout: base.njk
 keywords: [ "лут", "мусор", "свалка", "сбор"]
 ---
-
+<a href="{{ '/city/' | url }}" class="return-link">Город</a>
 # Места для Сбора
 
 <div class="tab-buttons">

@@ -2,7 +2,7 @@
 title: Здоровье
 layout: base.njk
 ---
-
+<a href="{{ '/index/' | url }}" class="return-link">На Главную</a>
 # Твое Здоровье
 
 <div class="tile-grid">

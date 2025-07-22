@@ -3,7 +3,7 @@ title: МедТех
 layout: base.njk
 keywords: [ "медик", "врач", "медтех" ]
 ---
-
+<a href="{{ '/job/' | url }}" class="return-link">Твоя Работа</a>
 # МедТех - Ролевая Способность
 
 <div class="image-container image-left">

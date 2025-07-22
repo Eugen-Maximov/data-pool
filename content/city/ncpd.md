@@ -3,7 +3,7 @@ title: NCPD
 layout: base.njk
 keywords: [ "нспд", "коп", "копы", "полиция", "менты", "законник"]
 ---
-
+<a href="{{ '/city/' | url }}" class="return-link">Город</a>
 # Night City Police Department
 
 Государственная организация по охране общественного правопорядка в Найт-Сити,

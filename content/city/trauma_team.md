@@ -3,7 +3,7 @@ title: Trauma Team
 layout: base.njk
 keywords: [ "тт", "травма", "травма тим", "медик", "спасение", "страховка"]
 ---
-
+<a href="{{ '/city/' | url }}" class="return-link">Город</a>
 # Trauma Team
 
 Информация предоставлена корпорацией «Траума Тим Интернэшнл»

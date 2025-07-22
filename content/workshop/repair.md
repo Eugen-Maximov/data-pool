@@ -3,7 +3,7 @@ title: Обслуживание снаряги
 layout: base.njk
 keywords: [ "снаряга", "ремонт" ]
 ---
-
+<a href="{{ '/workshop/' | url }}" class="return-link">Мастерская</a>
 # Обслуживание Снаряги
 
 > [Все для любителей работать руками]({{ '/job/tech/' | url }}).
