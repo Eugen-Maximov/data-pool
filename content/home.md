@@ -2,7 +2,7 @@
 title: Где ты живешь
 layout: base.njk
 ---
-<a href="{{ '/index/' | url }}" class="return-link">На Главную</a>
+<a href="{{ '/' | url }}" class="return-link">На Главную</a>
 # Где ты живешь
 
 <div class="tile-grid">
