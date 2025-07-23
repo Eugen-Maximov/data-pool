@@ -18,4 +18,8 @@ layout: base.njk
     <img src="{{ '/images/content/home/goods.png' | url }}" alt="Товары для дома" />
     <span>Товары для дома</span>
   </a>
+  <a href="{{ '/home/base/' | url }}" class="tile-button">
+    <img src="{{ '/images/content/home/base.png' | url }}" alt="Нет места лучше дома" />
+    <span>Нет места лучше дома</span>
+  </a>
 </div>
