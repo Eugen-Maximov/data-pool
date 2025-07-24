@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app");
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("data");
+    eleventyConfig.addPassthroughCopy("fonts");
     eleventyConfig.setLibrary("md", markdownIt({ html: true }).use(markdownItAnchor, {
         slugify: s =>
             s

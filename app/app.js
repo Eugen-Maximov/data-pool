@@ -65,7 +65,7 @@ window.initPageScripts = async function () {
 
         buttons.forEach(button => {
             button.addEventListener("click", (e) => {
-                e.preventDefault(); // чтобы не прыгало вверх при клике
+                e.preventDefault();
                 const targetId = button.getAttribute("data-tab");
                 const container = tabGroup.parentElement;
 
@@ -81,7 +81,8 @@ window.initPageScripts = async function () {
 
     // --- Кнопка "Наверх" ---
     const scrollBtn = document.getElementById("scrollToTopBtn");
-    if (scrollBtn) {
+    const footer = document.querySelector(".custom-footer")
+    if (scrollBtn && !footer) {
         window.addEventListener("scroll", () => {
             scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
         });

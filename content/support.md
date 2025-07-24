@@ -1,6 +1,7 @@
 ---
 title: Поддержка
 layout: base.njk
+footer: true
 ---
 
 # Поддержка
@@ -31,5 +32,3 @@ layout: base.njk
     <span>Новости</span>
   </a>
 </div>
-
-<img src="{{ '/images/data-pool_footer.png' | url }}" alt="Data Pool Footer" class="footer-image" />
