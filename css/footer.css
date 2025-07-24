@@ -56,6 +56,22 @@
     border-radius: 8px;
 }
 
+.person-info {
+    text-align: left;
+    margin-top: 0.3em;
+}
+
+.person-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.person-role {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 0.2em;
+}
+
 .person:hover {
     background: rgba(255, 0, 64, 0.1);
     color: #ffffff;
