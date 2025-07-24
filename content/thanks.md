@@ -1,6 +1,7 @@
 ---
 title: Благодарности
 layout: base.njk
+footer: true
 ---
 
 # Благодарим за поддержку!
@@ -13,6 +14,4 @@ layout: base.njk
 - Stanislav Lagutenkov
 - Виктор П.
 - Илья Ш.
-
-<img src="{{ '/images/data-pool_footer.png' | url }}" alt="Data Pool Footer" class="footer-image" />
 
