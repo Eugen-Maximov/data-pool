@@ -3,7 +3,7 @@ title: ПКТ комплекты
 layout: base.njk
 keywords: [ "пкт", "конверсия", "борг", "полная конверсия"]
 ---
-
+<a href="{{ '/chrome/' | url }}" class="return-link">Твой Хром</a>
 # ПКТ Комплекты
 
 <div class="tab-buttons">

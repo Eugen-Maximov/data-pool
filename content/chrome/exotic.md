@@ -3,7 +3,7 @@ title: Биоэкзотика Биотехники
 layout: base.njk
 keywords: [ "биоэкзотика", "биотехника", "зоопарк", "фурри", "кошкодивки" ]
 ---
-
+<a href="{{ '/chrome/' | url }}" class="return-link">Твой Хром</a>
 # Биоэкзотика Биотехники
 
 <details class="sidebar-group" close>
