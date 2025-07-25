@@ -3,7 +3,7 @@ title: Экзоскелеты/Боргирование
 layout: base.njk
 keywords: [ "борг", "скелет", "экзоскеле", "эндоскелет", "боргирование" ]
 ---
-
+<a href="{{ '/chrome/' | url }}" class="return-link">Твой Хром</a>
 # Экзоскелеты/Боргирование
 
 <div class="tab-buttons">
