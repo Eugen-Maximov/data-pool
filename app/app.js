@@ -134,6 +134,21 @@ window.initPageScripts = async function () {
             document.head.appendChild(link);
         }
     }
+
+
+    // --- Terminal colors ---
+    const buttons = document.querySelectorAll("[data-set-theme]");
+    buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                const theme = button.getAttribute("data-set-theme");
+                document.body.setAttribute("data-theme", theme);
+                localStorage.setItem("theme", theme);
+            });
+        });
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+            document.body.setAttribute("data-theme", savedTheme);
+        }
 };
 
 document.addEventListener("DOMContentLoaded", () => {
