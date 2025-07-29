@@ -21,6 +21,17 @@
     opacity: 0.6;
 }
 
+.terminal-links .comment a {
+    color: #f0f0f0;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.terminal-links .comment a:hover {
+    color: #ff0040;
+    text-decoration: none;
+}
+
 .terminal-block {
     font-family: monospace;
     padding: 1rem;
