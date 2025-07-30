@@ -3,7 +3,7 @@ title: Киберпсихоз
 layout: base.njk
 keywords: [ "киберпсихоз", "дурка" ]
 ---
-
+<a href="{{ '/chrome/' | url }}" class="return-link">Твой Хром</a>
 # Киберпсихоз
 
 > "Чумба, ты что, киберпсих?"

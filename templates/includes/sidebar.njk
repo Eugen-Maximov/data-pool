@@ -6,7 +6,7 @@
             </a>
         </div>
 
-        <details class="sidebar-group" open>
+        <details class="sidebar-group" close>
             <summary>Справочники</summary>
             <h3><a href="{{ '/equipment/' | url }}">📦 Снаряжение</a></h3>
             <ul>
@@ -81,7 +81,7 @@
                 <li><a href="{{ '/job/solo/' | url }}">Соло</a></li>
             </ul>
         </details>
-        <details class="sidebar-group" open>
+        <details class="sidebar-group" close>
             <summary>GM Place</summary>
             <ul>
                 <li><a href="{{ '/gm/combat/' | url }}">Таблицы боя</a></li>
@@ -93,8 +93,18 @@
                 <li><a href="{{ '/gm/luck/' | url }}">Вспышка Удачи</a></li>
             </ul>
         </details>
+<!--        <details class="sidebar-group" close>-->
+<!--            <summary>Полезное</summary>-->
+<!--            <ul>-->
+<!--                <li><a href="{{ '/other/rules/' | url }}">Переводы</a></li>-->
+<!--                <li><a href="{{ '/other/vtt/' | url }}">Виртуальные Столы</a></li>-->
+<!--            </ul>-->
+<!--        </details>-->
         <h4><a href="{{ '/faq/' | url }}">FAQ по CPRed</a></h4>
         <h4><a href="{{ '/support/' | url }}">Поддержка</a></h4>
         <h4><a href="{{ '/thanks/' | url }}">Благодарим за поддержку!</a></h4>
     </nav>
+    <div class="sidebar-version">
+        Версия: {{ version }}
+    </div>
 </aside>
