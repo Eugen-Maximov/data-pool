@@ -43,6 +43,10 @@ footer: true
     <img src="{{ '/images/content/main-page/job.png' | url }}" alt=Твоя Работа" />
     <span>Твоя Работа</span>
   </a>
+  <a href="{{ '/other/martial_arts/' | url }}" class="tile-button">
+    <img src="{{ '/images/content/main-page/martial.png' | url }}" alt=Боевые Искусства" />
+    <span>Боевые Искусства</span>
+  </a>
 </div>
 
 
