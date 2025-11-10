@@ -3,7 +3,7 @@ title: Другие способы пострадать
 layout: base.njk
 keywords: [ "яд", "огонь", "радиация", "удушье", "токсин", "падение" ]
 ---
-<a href="{{ '/health/' | url }}" class="return-link">Твое Здоровье</a>
+<a href="{{ '/health/' | url }}" class="return-link">Твоё Здоровье</a>
 # Другие Способы Пострадать
 
 <div class="tab-buttons">

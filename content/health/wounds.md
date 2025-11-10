@@ -3,7 +3,7 @@ title: Травмы
 layout: base.njk
 keywords: [ "травмы", "критраны", "переломы" ]
 ---
-<a href="{{ '/health/' | url }}" class="return-link">Твое Здоровье</a>
+<a href="{{ '/health/' | url }}" class="return-link">Твоё Здоровье</a>
 # Травмы
 
 <div class="tab-buttons">
