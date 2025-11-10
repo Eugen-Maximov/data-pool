@@ -12,8 +12,8 @@ footer: true
     <span>Снаряжение</span>
   </a>
   <a href="{{ '/health/' | url }}" class="tile-button">
-    <img src="{{ '/images/content/main-page/health.png' | url }}" alt="Твое Здоровье" />
-    <span>Твое Здоровье</span>
+    <img src="{{ '/images/content/main-page/health.png' | url }}" alt="Твоё Здоровье" />
+    <span>Твоё Здоровье</span>
   </a>
   <a href="{{ '/city/' | url }}" class="tile-button">
     <img src="{{ '/images/content/main-page/city.png' | url }}" alt=Город" />

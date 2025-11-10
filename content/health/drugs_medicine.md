@@ -3,7 +3,7 @@ title: Наркотики и лекарства
 layout: base.njk
 keywords: [ "наркотики", "лекарства", "стимуляторы", "алкоголь", "буст" ]
 ---
-<a href="{{ '/health/' | url }}" class="return-link">Твое Здоровье</a>
+<a href="{{ '/health/' | url }}" class="return-link">Твоё Здоровье</a>
 # Наркотики и Лекарства
 
 <div class="tab-buttons">
