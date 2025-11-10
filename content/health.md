@@ -3,7 +3,7 @@ title: Здоровье
 layout: base.njk
 ---
 <a href="{{ '/' | url }}" class="return-link">На Главную</a>
-# Твое Здоровье
+# Твоё Здоровье
 
 <div class="tile-grid">
   <a href="{{ '/health/wounds/' | url }}" class="tile-button">
