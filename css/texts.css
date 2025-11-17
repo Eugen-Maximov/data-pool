@@ -9,6 +9,14 @@ a:hover {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+    color: #ff0040;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 6px rgba(255, 0, 64, 0.6);
+}
+
 blockquote {
     border-left: 4px solid #ff0040;
     padding-left: 1em;
