@@ -11,7 +11,7 @@ keywords: [ "тачки", "ави", "яхта", "машина", "апгрейд�
 <div class="tab-buttons">
   <button class="tab-button active" data-tab="mods">Модернизация</button>
   <button class="tab-button" data-tab="types">Виды и примеры транспорта</button>
-  <button class="tab-button" data-tab="wheels">Крути свои колеса DLS</button>
+  <button class="tab-button" data-tab="wheels">Крути свои колеса DLC</button>
 </div>
 
 <div class="tab-content active" id="mods">
