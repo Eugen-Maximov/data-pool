@@ -9,6 +9,10 @@
 <body>
 <header class="site-header">
     <img src="{{ '/images/data-pool_header.png' | url }}" alt="Data Pool Header">
+    <div class="page-tabs">
+        <div class="page-tab-item active" id="home" data-open="home">DataPool</div>
+        <div class="page-tab-item" id="gm-screen" data-open="gm-screen">Ширма Мастера</div>
+    </div>
 </header>
 
 <div class="layout">
@@ -28,7 +32,13 @@
             {% include "footer.njk" %}
         {% endif %}
     </main>
+    <div id="gm-screen-mode"
+         class="gm-screen-mode hidden"
+         data-screen-url="{{ '/gm-screen/screen/index.html' | url }}">
+        <div id="gm-screen-content"></div>
+    </div>
 </div>
+
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="https://unpkg.com/lunr/lunr.min.js"></script>
 <script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
@@ -44,8 +54,10 @@
 <div id="toc-popup" class="toc-popup hidden">
     <div class="toc-popup-inner" id="toc-dynamic"></div>
 </div>
+
 <script src="{{ '/app/app.js' | url }}"></script>
 <script src="{{ '/app/spa.js' | url }}" defer></script>
+<script src="{{ '/app/gm-panel.js' | url }}" defer></script>
 </body>
 </html>
 

@@ -1,10 +1,11 @@
 ---
 title: Главная страница
 layout: base.njk
+templateEngineOverride: njk
 footer: true
 ---
 
-# База данных Cyberpunk RED/207x - Главная
+<h1 class="version-title">База данных Cyberpunk RED/207x - Главная</h1>
 
 <div class="tile-grid">
   <a href="{{ '/equipment/' | url }}" class="tile-button">
@@ -49,8 +50,35 @@ footer: true
   </a>
 </div>
 
-
+{% set sorted = updates | reverse %}
+{% set latest = sorted %}
+<section class="version-log">
+  <h3 class="version-title">Последние обновления</h3>
+  <div class="version-grid">
+    {% for item in latest %}
+      {% if loop.index0 < 3 %}
+      <div class="version-card">
+        <div class="version-header">
+          <span class="version-number">v{{ item.version }}</span>
+          <span class="version-date">{{ item.date }}</span>
+        </div>
+        <div class="version-body">
+          <p><strong>{{ item.title }}:</strong> {{ item.description }}</p>
+          {% if item.changes.length %}
+            <ul>
+              {% for change in item.changes %}
+                <li>{{ change }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
 <a href="https://coda.io/@a-leon/data-pool-0-95-coda" target="_blank">Оригинальный ДатаПул (только с VPN)</a>
 
-Итак, мы в очередной раз переехали. Не бабушку на шоссе, а на новый хостинг. Продолжаем попытки сделать вашу жизнь лучше.
+Итак, мы в очередной раз переехали. Не бабушку на шоссе, а на новый хостинг. Продолжаем попытки сделать вашу жизнь
+лучше.

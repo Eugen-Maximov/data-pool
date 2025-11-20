@@ -88,7 +88,7 @@ window.initPageScripts = async function () {
         });
 
         scrollBtn.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.scrollTo({top: 0, behavior: "smooth"});
         });
     }
 
@@ -135,20 +135,37 @@ window.initPageScripts = async function () {
         }
     }
 
+    // --- Вкладки разделов ---
+    const tabs = document.querySelectorAll(".page-tab-item");
+    const gmScreen = document.getElementById("gm-screen-mode");
+    const site = document.getElementById("main-content");
+    const sidebar = document.getElementById("sidebar");
+    let gmInitialized = false;
+    tabs.forEach(tab => {
+        tab.addEventListener("click", async (event) => {
+            const id = event.currentTarget.dataset.open;
+            tabs.forEach(t => t.classList.remove("active"));
+            tab.classList.add("active");
+            console.log("clicked: " + id)
 
-    // --- Terminal colors ---
-    const buttons = document.querySelectorAll("[data-set-theme]");
-    buttons.forEach(button => {
-            button.addEventListener("click", () => {
-                const theme = button.getAttribute("data-set-theme");
-                document.body.setAttribute("data-theme", theme);
-                localStorage.setItem("theme", theme);
-            });
+            switch (id) {
+                case "home":
+                    gmScreen.classList.remove("active");
+                    site.style.display = "";
+                    sidebar.style.display = "";
+                    break;
+                case "gm-screen":
+                    site.style.display = "none";
+                    sidebar.style.display = "none";
+                    gmScreen.classList.add("active");
+                    if (!gmInitialized) {
+                        await loadGMScreen();
+                        gmInitialized = true;
+                    }
+                    break;
+            }
         });
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme) {
-            document.body.setAttribute("data-theme", savedTheme);
-        }
+    });
 };
 
 document.addEventListener("DOMContentLoaded", () => {

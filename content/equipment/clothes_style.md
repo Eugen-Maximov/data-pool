@@ -4,7 +4,7 @@ keywords: ["одежда", "стиль", "наряды", "прически", "к
 layout: base.njk
 ---
 <a href="{{ '/equipment/' | url }}" class="return-link">Снаряжение</a>
-# 🧥 Одежда и Стиль
+# Одежда и Стиль
 
 <div class="tab-buttons">
   <button class="tab-button active" data-tab="style-red">Стиль Красного Времени</button>
