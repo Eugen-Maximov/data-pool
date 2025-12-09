@@ -5,6 +5,7 @@ templateEngineOverride: njk
 footer: true
 ---
 
+<a href="{{ '/' | url }}" class="return-link">На Главную</a>
 <h3 class="version-title">Поддержка</h3>
 Если вы хотите поддержать нашу команду и сказать спасибо в материальной форме то вы можете воспользоваться QR кодами ниже:
 

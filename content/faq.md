@@ -4,6 +4,7 @@ layout: base.njk
 keywords: ["правила", "бой", "импланты", "экономика", "нетраннинг", "навыки", "оружие", "криты"]
 ---
 
+<a href="{{ '/' | url }}" class="return-link">На Главную</a>
 # FAQ
 
 <div class="page-toc">

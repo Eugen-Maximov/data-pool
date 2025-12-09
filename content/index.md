@@ -52,11 +52,13 @@ footer: true
 
 {% set sorted = updates | reverse %}
 {% set latest = sorted %}
+{% set count = 0 %}
 <section class="version-log">
   <h3 class="version-title">Последние обновления</h3>
   <div class="version-grid">
     {% for item in latest %}
-      {% if loop.index0 < 3 %}
+      {% if (item.type == "major") and (count < 3) %}
+      {% set count = count + 1 %}
       <div class="version-card">
         <div class="version-header">
           <span class="version-number">v{{ item.version }}</span>
@@ -75,6 +77,10 @@ footer: true
       </div>
     {% endif %}
     {% endfor %}
+  </div>
+
+  <div class="version-more-button-container">
+    <a href="{{ '/support/' | url }}" class="version-more-button">Больше новостей</a>
   </div>
 </section>
 
