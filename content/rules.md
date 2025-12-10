@@ -20,12 +20,11 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 <div class="tab-buttons">
     <button class="tab-button active" data-tab="rules">Cyberpunk RED Products</button>
     <button class="tab-button" data-tab="dlc">Cyberpunk RED DLCs</button>
-    <button class="tab-button" data-tab="missions">Cyberpunk RED Missions</button>
 </div>
 
 <div class="tab-content active" id="rules">
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED Jumpstart Kit</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -39,7 +38,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -53,7 +52,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED Data Screen/Gamemaster Screen</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -66,7 +65,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED Data Pack</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -84,7 +83,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Netrunning Deck</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое/Для печати<br>
@@ -104,7 +103,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Micro Chrome</summary>
 
         <br><b>Издание:</b> Цифровое<br>
@@ -121,7 +120,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Interface RED volume 1</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -142,7 +141,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Tales of the RED: Street Stories</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -155,7 +154,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED Easy Mode</summary>
 
         <br><b>Издание:</b> Цифровое/Для печати<br>
@@ -169,7 +168,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Black Chrome</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -191,7 +190,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Interface RED volume 2</summary>
 
         <br><b>Издание:</b> Цифровое/Печать по запросу<br>
@@ -212,7 +211,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Danger Gal Dossier</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -227,7 +226,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Interface RED volume 3</summary>
 
         <br><b>Издание:</b> Цифровое/Печать по запросу<br>
@@ -252,7 +251,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk: Edgerunners Mission Kit</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -266,7 +265,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Tales of the RED: Hope Reborn</summary>
 
         <br><b>Издание:</b> Физическое/Цифровое<br>
@@ -278,7 +277,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Trauma Deck</summary>
 
         <br><b>Издание:</b> Цифровое/Печать по запросу<br>
@@ -292,7 +291,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Interface RED volume 4</summary>
 
         <br><b>Издание:</b> Цифровое/Печать по запросу<br>
@@ -315,7 +314,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Single Player Mode</summary>
 
         <br><b>Издание:</b> Цифровое/Печать по запросу<br>
@@ -335,7 +334,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 <div class="tab-content" id="dlc">
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Старые пушки не умирают</summary>
 
         <b>Дата выхода:</b> Ноябрь 2020<br>
@@ -347,7 +346,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Груз Красного Хрома</summary>
 
         <b>Дата выхода:</b> Декабрь 2020<br>
@@ -360,7 +359,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Киберкресла</summary>
 
         <b>Дата выхода:</b> Январь 2021<br>
@@ -372,7 +371,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Набор для Ваншота</summary>
 
         <b>Дата выхода:</b> Февраль 2021<br>
@@ -384,7 +383,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Elflines Online</summary>
 
         <b>Дата выхода:</b> Апрель 2021<br>
@@ -396,7 +395,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Elflines Online Expansion Pack 1</summary>
 
         <b>Дата выхода:</b> Апрель 2021<br>
@@ -408,7 +407,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Закалённые шестёрки</summary>
 
         <b>Дата выхода:</b> Май 2021<br>
@@ -420,7 +419,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Закалённые лейтенанты</summary>
 
         <b>Дата выхода:</b> Июнь 2021<br>
@@ -432,7 +431,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Погода в Найт-Сити</summary>
 
         <b>Дата выхода:</b> Июль 2021<br>
@@ -444,7 +443,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Jumpstart Kit - гайд по конвертации</summary>
 
         <b>Дата выхода:</b> Август 2021<br>
@@ -456,7 +455,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Контейнеры и кубические отели</summary>
 
         <b>Дата выхода:</b> Сентябрь 2021<br>
@@ -468,7 +467,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Таро Найт-Сити</summary>
 
         <b>Дата выхода:</b> Октябрь 2021<br>
@@ -479,7 +478,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Гайд по ELO Дайэрика Сайлара</summary>
 
         <b>Дата выхода:</b> Ноябрь 2021<br>
@@ -491,7 +490,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 Дней Оруждества</summary>
 
         <b>Дата выхода:</b> Декабрь 2021<br>
@@ -503,7 +502,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Закалённые мини-боссы</summary>
 
         <b>Дата выхода:</b> Январь 2022<br>
@@ -515,7 +514,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Цифровые Знакомства В Темном Будущем</summary>
 
         <b>Дата выхода:</b> Февраль 2022<br>
@@ -527,7 +526,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Гараж Вудчиппер</summary>
 
         <b>Дата выхода:</b> Март 2022<br>
@@ -539,7 +538,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Сбор Обломков Найт-Сити</summary>
 
         <b>Дата выхода:</b> Апрель 2022<br>
@@ -551,7 +550,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Полночь в Загрузе</summary>
 
         <b>Дата выхода:</b> Май 2022<br>
@@ -563,7 +562,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Киберимпланты Которые Ты Обязан Купить</summary>
 
         <b>Дата выхода:</b> Июнь 2022<br>
@@ -575,7 +574,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Набор Случайностей</summary>
 
         <b>Дата выхода:</b> Июль 2022<br>
@@ -587,7 +586,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Сказки Красного Времени+</summary>
 
         <b>Дата выхода:</b> Август 2022<br>
@@ -598,7 +597,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Elflines Online the TCG</summary>
 
         <b>Дата выхода:</b> Октябрь 2022<br>
@@ -610,7 +609,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Крути Свои Колеса</summary>
 
         <b>Дата выхода:</b> Ноябрь 2022<br>
@@ -622,7 +621,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 дней киберждества</summary>
 
         <b>Дата выхода:</b> Декабрь 2022<br>
@@ -634,7 +633,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Аптека Хорнета</summary>
 
         <b>Дата выхода:</b> Январь 2023<br>
@@ -646,7 +645,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Черный Хром+</summary>
 
         <b>Дата выхода:</b> Январь 2023<br>
@@ -658,7 +657,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Listen Up to JonJontheWise</summary>
 
         <b>Дата выхода:</b> Февраль 2023<br>
@@ -669,7 +668,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Достижения и Лутбоксы</summary>
 
         <b>Дата выхода:</b> Апрель 2023<br>
@@ -681,7 +680,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Стикбол</summary>
 
         <b>Дата выхода:</b> Май 2023<br>
@@ -693,7 +692,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Ужасный Панкнот</summary>
 
         <b>Дата выхода:</b> Июнь 2023<br>
@@ -705,7 +704,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Danger Gal Dossier+</summary>
 
         <b>Дата выхода:</b> Июль 2023<br>
@@ -716,7 +715,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Корпоративные конапты и квартиры-студии</summary>
 
         <b>Дата выхода:</b> Август 2023<br>
@@ -728,7 +727,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Listen Up to Rob Mulligan</summary>
 
         <b>Дата выхода:</b> Сентябрь 2023<br>
@@ -739,7 +738,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Хэллоуинские Скримлисты</summary>
 
         <b>Дата выхода:</b> Октябрь 2023<br>
@@ -751,7 +750,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Каталог ночного рынка</summary>
 
         <b>Дата выхода:</b> Ноябрь 2023<br>
@@ -762,7 +761,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Каталог ночного рынка</summary>
 
         <b>Дата выхода:</b> Ноябрь 2023<br>
@@ -773,7 +772,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>The Sawtooth</summary>
 
         <b>Дата выхода:</b> Декабрь 2023<br>
@@ -782,7 +781,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 дней снаряждества</summary>
 
         <b>Дата выхода:</b> Декабрь 2023<br>
@@ -794,7 +793,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 дней снаряждества</summary>
 
         <b>Дата выхода:</b> Декабрь 2024<br>
@@ -806,7 +805,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Круши свои вещи</summary>
 
         <b>Дата выхода:</b> Январь 2024<br>
@@ -817,7 +816,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Погоня за кроликом</summary>
 
         <b>Дата выхода:</b> Февраль 2024<br>
@@ -828,7 +827,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Все об агентах</summary>
 
         <b>Дата выхода:</b> Март 2024<br>
@@ -839,7 +838,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Мешая напитки–верши судьбы</summary>
 
         <b>Дата выхода:</b> Апрель 2024<br>
@@ -851,7 +850,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Hot Pursuit</summary>
 
         <b>Дата выхода:</b> Май 2024<br>
@@ -862,7 +861,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Храм Тоггла</summary>
 
         <b>Дата выхода:</b> Июнь 2024<br>
@@ -873,7 +872,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Edgerunner Folio</summary>
 
         <b>Дата выхода:</b> Июль 2024<br>
@@ -884,7 +883,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>CEMK DLC #1</summary>
 
         <b>Дата выхода:</b> Июль 2024<br>
@@ -895,7 +894,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Нет места лучше дома</summary>
 
         <b>Дата выхода:</b> Август 2024<br>
@@ -906,7 +905,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>CEMK DLC #2</summary>
 
         <b>Дата выхода:</b> Август 2024<br>
@@ -917,7 +916,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Кто сказал убийство?</summary>
 
         <b>Дата выхода:</b> Сентябрь 2024<br>
@@ -928,7 +927,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Твой новый лучший друг</summary>
 
         <b>Дата выхода:</b> Октябрь 2024<br>
@@ -939,7 +938,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Генератор скримлистов</summary>
 
         <b>Дата выхода:</b> Октябрь 2024<br>
@@ -950,7 +949,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 дней краснождества</summary>
 
         <b>Дата выхода:</b> Декабрь 2024<br>
@@ -961,7 +960,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Атлас Найт-Сити</summary>
 
         <b>Дата выхода:</b> Январь 2025<br>
@@ -972,7 +971,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>100 Logos</summary>
 
         <b>Дата выхода:</b> Февраль 2025<br>
@@ -983,7 +982,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Nomad Presents Radio</summary>
 
         <b>Дата выхода:</b> Март 2025<br>
@@ -994,7 +993,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>12 дней милождества</summary>
 
         <b>Дата выхода:</b> Апрель 2025<br>
@@ -1005,7 +1004,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Elflines Online: Magic Returns</summary>
 
         <b>Дата выхода:</b> Май 2025<br>
@@ -1016,7 +1015,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Rockerboy Index</summary>
 
         <b>Дата выхода:</b> Май 2025<br>
@@ -1027,7 +1026,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Going Quiet (Тихо)</summary>
 
         <b>Дата выхода:</b> Май 2025<br>
@@ -1038,7 +1037,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Если вы пропустили Gen Con</summary>
 
         <b>Дата выхода:</b> Август 2025<br>
@@ -1049,7 +1048,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Если вы пропустили Gen Con</summary>
 
         <b>Дата выхода:</b> Август 2025<br>
@@ -1060,7 +1059,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Single Player Mode+</summary>
 
         <b>Дата выхода:</b> Сентябрь 2025<br>
@@ -1071,7 +1070,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Segotari Power</summary>
 
         <b>Дата выхода:</b> Октябрь 2025<br>
@@ -1082,7 +1081,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>Cyberpunk RED Checklist</summary>
 
         <b>Дата выхода:</b> Ноябрь 2025<br>
@@ -1093,7 +1092,7 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
-<details class="sidebar-group">
+<details class="sidebar-group book-toggle">
     <summary>The 12 Days of ???mas</summary>
 
         <b>Дата выхода:</b> Декабрь 2025<br>
@@ -1103,4 +1102,3 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 </details>
 
 </div>
-

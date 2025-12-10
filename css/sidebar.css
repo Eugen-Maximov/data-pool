@@ -89,3 +89,23 @@
     padding: 0.5rem 0;
     opacity: 0.6;
 }
+
+.book-toggle summary::-webkit-details-marker {
+    display: none;
+}
+
+.book-toggle summary::before {
+    content: "📘";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1em;
+    transform-origin: center;
+    transition: transform 0.25s ease-in-out;
+    color: #ff0040;
+}
+
+.book-toggle[open] summary::before {
+    transform: rotate(20deg);
+    content: "📖";
+}
