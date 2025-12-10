@@ -80,7 +80,7 @@ footer: true
   </div>
 
   <div class="version-more-button-container">
-    <a href="{{ '/support/' | url }}" class="version-more-button">Больше новостей</a>
+    <a href="{{ '/updates/' | url }}" class="version-more-button">Больше новостей</a>
   </div>
 </section>
 
