@@ -138,6 +138,7 @@ window.initPageScripts = async function () {
     // --- Вкладки разделов ---
     const tabs = document.querySelectorAll(".page-tab-item");
     const gmScreen = document.getElementById("gm-screen-mode");
+    const enemies = document.getElementById("enemies-mode")
     const site = document.getElementById("main-content");
     const sidebar = document.getElementById("sidebar");
     let gmInitialized = false;
@@ -151,6 +152,7 @@ window.initPageScripts = async function () {
             switch (id) {
                 case "home":
                     gmScreen.classList.remove("active");
+                    enemies.classList.remove("active")
                     site.style.display = "";
                     sidebar.style.display = "";
                     break;
@@ -158,10 +160,18 @@ window.initPageScripts = async function () {
                     site.style.display = "none";
                     sidebar.style.display = "none";
                     gmScreen.classList.add("active");
+                    enemies.classList.remove("active")
                     if (!gmInitialized) {
                         await loadGMScreen();
                         gmInitialized = true;
                     }
+                    break;
+                case "enemies":
+                    site.style.display = "none";
+                    sidebar.style.display = "none";
+                    gmScreen.classList.remove("active");
+                    enemies.classList.add("active");
+                    await initEnemiesModule()
                     break;
             }
         });
