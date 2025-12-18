@@ -30,7 +30,7 @@ jobs:
         run: npm install --package=package.dev.json
 
       - name: Build project (DEV)
-        run: npm run build --package=package.dev.json
+        run: npx eleventy --config=eleventy.dev.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

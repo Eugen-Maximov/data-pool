@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy --config=eleventy.dev.js",
-    "serve": "eleventy --serve --config=eleventy.dev.js"
+    "build": "eleventy --config=.eleventy.dev.js",
+    "serve": "eleventy --serve --config=.eleventy.dev.js"
   },
   "keywords": [],
   "author": "",
