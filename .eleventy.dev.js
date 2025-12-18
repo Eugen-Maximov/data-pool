@@ -1,6 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const pkg = require("./package.json")
+const pkg = require("./package.dev.json")
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("css");
