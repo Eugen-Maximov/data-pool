@@ -207,6 +207,13 @@
 }
 
 /* Список характеристик */
+.stats-column {
+    flex: 0 0 360px;
+    list-style: none;
+    margin: 0.5rem 0 0;
+    padding: 0;
+}
+
 .stats-column ul {
     list-style: none;
     margin: 0.5rem 0 0;
@@ -604,6 +611,9 @@
     color: #ccc;
     line-height: 1.4;
     margin-bottom: 6px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    white-space: normal;
 }
 
 .cyberware-list li::before{
@@ -646,4 +656,29 @@
 
 .extra-weapons .slot {
     position: relative;
+}
+
+.enemy-role-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.45);
+    border: 1px solid rgba(255,0,40,0.6);
+    box-shadow: 0 0 10px rgba(255,0,40,0.4);
+}
+
+.role-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.role-level{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff3b3b;
 }

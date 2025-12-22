@@ -132,6 +132,7 @@ function buildEnemyDetails(enemy) {
                 <h3 class="column-name">Характеристики</h3>
                 ${renderEnemyStatsBlock(enemy)}
             </div>
+            ${renderEnemyRole(enemy)}
             ${renderEnemyCyberwareBlock(enemy)}
             </div>
     
@@ -188,11 +189,12 @@ function renderEnemyStatsBlock(enemy) {
 }
 
 function renderEnemySkills(skills) {
-    if (!skills) return '<p class="empty-skills">Навыков нет</p>';
-    return Object.entries(skills)
-        .map(([groupKey, groupSkills]) =>
-            renderSkillGroup(groupKey, groupSkills)
-        )
+    if (!skills) return '';
+
+    return Object.keys(SKILL_GROUP_LABELS)
+        .map(groupKey => {
+            return renderSkillGroup(groupKey, skills[groupKey]);
+        })
         .join('');
 }
 
@@ -212,6 +214,7 @@ function fillEnemyInventory(enemy) {
             icon: item.icon ?? null,
             stat: item.count != null ? `x${item.count}` : '',
             name: item.name ?? '',
+            type: 'item',
         });
 
         grid.appendChild(slot);
@@ -336,7 +339,7 @@ function hideSlotTooltip() {
  *  - stat: строка для угла
  *  - name: название для tooltip
  *  - link: ссылка для tooltip (опционально)
- *  - type: тип для выбора дефолтной иконки (дефолтно item)
+ *  - type: тип для выбора дефолтной иконки
  */
 function setSlot(
     slotEl,
@@ -345,7 +348,7 @@ function setSlot(
         stat = '',
         name = '',
         link = '',
-        type = 'item',
+        type = '',
     } = {}
 ) {
     if (!slotEl) return;
@@ -427,37 +430,41 @@ function renderAttributes(stats) {
 }
 
 function renderSkillGroup(groupKey, skills) {
-    // если вся группа нулевая — не показываем
-    if (!hasNonZeroSkills(skills)) return '';
-
+    if (!skills) return '';
     const items = [];
-
     Object.entries(skills).forEach(([skillKey, value]) => {
-        // поднавык
+        // поднавыки (язык, знание местности и т.п.)
         if (Array.isArray(value)) {
             value.forEach(sub => {
-                if (sub.level > 0) {
+                if (
+                    (typeof sub.level === 'number' && sub.level > 0) ||
+                    (typeof sub.level === 'string' && sub.level.trim() !== '')
+                ) {
                     const label = `${SKILL_LABELS[skillKey]} (${sub.name})`;
                     items.push(renderSkillItem(label, sub.level));
                 }
             });
+            return;
         }
         // обычный навык
-        else if (value > 0) {
+        if (
+            (typeof value === 'number' && value > 0) ||
+            (typeof value === 'string' && value.trim() !== '')
+        ) {
             items.push(renderSkillItem(SKILL_LABELS[skillKey], value));
         }
     });
-
     if (!items.length) return '';
-
     return `
-    <div class="skill-group">
-      <h4 class="skill-group-title">${SKILL_GROUP_LABELS[groupKey]}</h4>
-      <div class="skill-group-items">
-        ${items.join('')}
-      </div>
-    </div>
-  `;
+        <div class="skill-group">
+            <h4 class="skill-group-title">
+                ${SKILL_GROUP_LABELS[groupKey]}
+            </h4>
+            <div class="skill-group-items">
+                ${items.join('')}
+            </div>
+        </div>
+    `;
 }
 
 function renderSkillItem(label, value) {
@@ -467,15 +474,6 @@ function renderSkillItem(label, value) {
       <span class="skill-value">${value}</span>
     </div>
   `;
-}
-
-function hasNonZeroSkills(skillGroup) {
-    return Object.values(skillGroup).some(value => {
-        if (Array.isArray(value)) {
-            return value.some(sub => sub.level > 0);
-        }
-        return value > 0;
-    });
 }
 
 function updateEnemyTierDescription(tierData) {
@@ -503,6 +501,20 @@ function renderEnemyCyberwareBlock(enemy) {
             ${list.map(c => `<li>${c.name}</li>`).join("")}
         </ul>
       </div>
+    `;
+}
+
+function renderEnemyRole(enemy){
+    if(!enemy.role) return '';
+
+    return `
+    <div class="enemy-card enemy-role">
+        <h3 class="column-name">Роль</h3>
+        <div class="enemy-role-row">
+            <span class="role-name">${enemy.role.name}</span>
+            <span class="role-level">УР. ${enemy.role.level}</span>
+        </div>
+    </div>
     `;
 }
 

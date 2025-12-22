@@ -109,6 +109,6 @@ const SKILL_LABELS = {
     'acrobatics': 'Акробатика',
     'endurance': 'Выносливость',
     'stealth': 'Скрытность',
-    'resistance': 'Сопротивление',
+    'resistance': 'Сопротивление пыткам/наркотикам',
     'dance': 'Танец',
 };
