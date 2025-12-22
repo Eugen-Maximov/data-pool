@@ -81,7 +81,7 @@ function buildEnemyTypeMenu(tier) {
     }
 
     typeContainer.innerHTML = "";
-    detailsContainer.innerHTML = "<p>Выбери противника слева.</p>";
+    detailsContainer.innerHTML = "";
 
     if (!tier || !Array.isArray(tier.types)) {
         console.error("У tier нет поля types", tier);
