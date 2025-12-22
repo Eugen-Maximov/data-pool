@@ -1,11 +1,12 @@
 {
-  "name": "data-pool",
-  "version": "1.5.0",
+  "name": "data-pool-dev",
+  "version": "1.5.3-dev",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve"
+    "build": "eleventy --config=.eleventy.dev.js",
+    "serve": "eleventy --serve --config=.eleventy.dev.js"
   },
   "keywords": [],
   "author": "",

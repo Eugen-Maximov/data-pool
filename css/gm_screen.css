@@ -24,17 +24,6 @@
     color: white;
 }
 
-#screen-panel-container {
-    position: relative;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-top: -1rem;
-    padding-bottom: 2rem;
-
-    display: none;
-}
-
 /* Содержимое панели */
 #screen-panel-content {
     background: #121212;

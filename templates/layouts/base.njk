@@ -12,6 +12,7 @@
     <div class="page-tabs">
         <div class="page-tab-item active" id="home" data-open="home">DataPool</div>
         <div class="page-tab-item" id="gm-screen" data-open="gm-screen">Ширма Мастера</div>
+        <div class="page-tab-item" id="enemies" data-open="enemies">Противники</div>
     </div>
 </header>
 
@@ -37,6 +38,18 @@
          data-screen-url="{{ '/gm-screen/screen/index.html' | url }}">
         <div id="gm-screen-content"></div>
     </div>
+    <div id="enemies-mode"
+         class="enemies-mode hidden"
+         data-enemies-url="{{ '/data/enemies/enemies-index.json' | url }}">
+        <div class="enemies-root">
+            <aside class="enemies-sidebar">
+                <div id="enemy-tier-buttons"></div>
+                <div id="enemy-tier-description" class="enemy-tier-description"></div>
+            </aside>
+            <div id="enemy-type-buttons"></div>
+            <section id="enemy-details"></section>
+        </div>
+    </div>
 </div>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
@@ -58,6 +71,8 @@
 <script src="{{ '/app/app.js' | url }}"></script>
 <script src="{{ '/app/spa.js' | url }}" defer></script>
 <script src="{{ '/app/gm-panel.js' | url }}" defer></script>
+<script src="{{ '/data/enemies/dictionary.js' | url }}" defer></script>
+<script src="{{ '/app/enemies.js' | url }}" defer></script>
 </body>
 </html>
 
